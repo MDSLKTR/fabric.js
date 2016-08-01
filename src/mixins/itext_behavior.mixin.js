@@ -541,7 +541,7 @@
       this.selectable = true;
 
       this.selectionEnd = this.selectionStart;
-      this.hiddenTextarea && this.canvas && this.hiddenTextarea.parentNode.removeChild(this.hiddenTextarea);
+      this.hiddenTextarea && this.hiddenTextarea.parentNode.removeChild(this.hiddenTextarea);
       this.hiddenTextarea = null;
 
       this.abortCursorAnimation();
